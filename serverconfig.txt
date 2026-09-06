@@ -1,0 +1,30 @@
+#  Terraria dedicated server config
+#  Docs: https://terraria.wiki.gg/wiki/Server#Server_config_file
+#  Launch with:  ./TerrariaServer -config serverconfig.txt
+
+#  World file to load. If it does not exist it is created using the
+#  autocreate / worldname / difficulty / seed settings below.
+world=/home/gamer/git/terraria-server/worlds/World.wld
+worldpath=/home/gamer/git/terraria-server/worlds/
+
+#  World generation (only used when the world file does not yet exist)
+#  autocreate: 1 = small, 2 = medium, 3 = large
+autocreate=3
+worldname=World
+#  difficulty: 0 = classic, 1 = expert, 2 = master, 3 = journey
+difficulty=0
+seed=
+
+#  Networking
+port=7777
+maxplayers=8
+password=
+upnp=1
+#  secure=1 enables anti-cheat protection
+secure=1
+
+motd=Welcome to the Terraria server!
+language=en/US
+
+#  Save the world every N minutes automatically. Comment out to disable.
+autosave=1

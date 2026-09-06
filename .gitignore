@@ -1,0 +1,6 @@
+# Keep worlds (they are the save data we want backed up) but ignore transient files
+*.wld.bak
+*.bak
+*.tmp
+tmodloader-logs/
+Logs/
